@@ -1,0 +1,467 @@
+css reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, montserrat;
+}
+/* --card-shadow: -2px -4px 10px 1px rgba(129, 111, 138, 0.5); */
+
+body{
+     background-color: #0B0121; 
+     font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h5, .first-features, .faded-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navstart{
+    font-family: 'Montserrat';
+    /* background-color: #0B0121 ; */
+    display: flex;
+    align-items: center;
+    /* gap: 100px; */
+    justify-content: space-between;
+
+    padding-right: 100px;
+    height: 72px;
+}
+
+a{ text-decoration: none;
+}
+.navfirst {
+       display: flex;
+       align-items: center;  /* Aligns icon and text vertically */
+    color:rgb(249, 248, 246);
+    font-size: 15px;
+    margin-left: 100px;
+}
+.navfirst  h1{
+padding-left: 10px;
+}
+.navfirst img{
+    height: 24px;
+}
+.navlinks {
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     gap: 30px;
+     align-items: center;
+     /* width: 90%; */
+     
+    }
+.navlinks li a {
+  color: #ECECEC;
+}
+
+/* Hamburger Menu Icon */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #dbcdcd;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+
+
+
+
+#bodi main{
+    font-family: 'Montserrat';
+    /* background-image: ; */
+    /* background: linear-gradient(  90deg, rgba(53, 220, 128, 0)100%); */
+    background: linear-gradient(  0deg, #0B0121, rgba(230, 185, 5, 0)136%), url('/img/Hero\ Stack\ background\ only.png');
+    /* -webkit-background-clip: text;      the two webkits were used to make the text take the background color effect  */
+    /* -webkit-text-fill-color:transparent; */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 1px; */
+    /* width: 90.3%; centering a div using full width 100%, just add  text-align:center; to it  */
+    /* text-align: center; */
+    padding: 200px 90px 100px 90px;
+}
+#bodi main h5{
+    color: #F2F4F8;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 30px ;
+    padding: 12px;
+    margin-bottom: 1px;
+    opacity: 0.7;
+    font-weight: 100;
+}
+#bodi main .faded-text{
+    font-size: 70px;
+    width:61% ;
+    text-align: center;
+    color: #ECECEC;
+    font-weight: 200;  
+}
+#bodi main .faded-text span{
+    text-shadow: 1px 1px 2px rgb(102, 72, 72); 
+    opacity: 0.8;
+}
+#bodi main p{
+    color:  #ECECEC;
+    width: 30%;
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+#bodi main .download{
+    
+}
+#trusted{
+    
+    /* background-color:#0F081C; */
+    color:#FFFFFF ;
+    padding: 1px 0px 60px 0px;
+    /* width: 100%;
+    margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    gap: 92px;
+}
+#trusted p{
+    opacity:0.7;
+    font-family: 'Montserrat';
+    padding-bottom: 20px;
+}
+#trusted div{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 8px;
+    height: 13px;
+}
+#features main{
+    font-family: 'Montserrat';
+
+    /* background-color:  #0F081C ; */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-features{
+    color:#ECECEC ;
+    width: 18%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 34px;
+    align-items: center;
+}
+.features-para{
+    color: #ECECEC;
+    width: 18%;
+    text-align: center;
+    opacity:0.6;
+    align-items: center;
+    font-size:18px ;
+    
+}
+#cards{
+    font-family: 'Montserrat';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #0F081C ; */
+    padding: 0px 140px 0px 140px;
+
+}
+#cards main{
+    padding:45px ;
+}
+.firstdiv-cards{
+    display: flex;
+    text-align: start;
+}
+.firstdiv-cards  .one{
+    border-radius: 25px;
+    padding: 40px;
+    margin: 10px;
+    width: 70%;
+    color:#ECECEC ;
+    background: linear-gradient(  0deg, #0B0121, rgba(129, 111, 138, 0.1)56%);
+    box-shadow:  -2px -4px 10px 1px rgba(129, 111, 138, 0.5) ;
+    /* box-shadow: 
+    0px 0px 20px rgba(255, 0, 255, 0.3),  
+    0px 0px 10px rgba(0, 0, 0, 0.5);    */
+}
+
+.firstdiv-cards  .two{
+    border-radius: 25px;
+    padding: 40px;
+    margin: 10px;
+    width: 70%;
+    color:#ECECEC ;
+    background: linear-gradient(  0deg, #0B0121, rgba(129, 111, 138, 0.1)56%);
+    box-shadow:  -2px -4px 10px 1px rgba(129, 111, 138, 0.5) ;
+    /* box-shadow: 
+    0px 0px 20px rgba(255, 0, 255, 0.3),  
+    0px 0px 10px rgba(0, 0, 0, 0.5);    */
+}
+.firstdiv-cards  .two img{
+    margin-top: 40px;
+    padding-bottom: 22px;
+}
+
+
+.firstdiv-cards main h2{
+font-size: 32px;
+font-weight:100;
+}
+.firstdiv-cards main p{
+    opacity:0.6;
+    font-size: 14px;
+}
+.firstdiv-cards main a{
+    color:#FFFFFF;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.seconddiv-cards{
+    display: flex;
+    background: linear-gradient(  0deg, #0B0121, rgba(129, 111, 138, 0.1)56%);
+    border-radius: 25px;
+    margin-top: 34px;
+    box-shadow: -2px -4px 10px 1px rgba(129, 111, 138, 0.5) ;
+}
+.seconddiv-cards main{
+    color:#ECECEC ;   
+        font-family: 'Montserrat';
+}
+.seconddiv-cards main a{
+    color:#ECECEC;
+    text-decoration: underline;
+}
+.seconddiv-cards main h3{
+    width:15% ;
+    font-weight: 100;
+}
+.seconddiv-cards main p{
+    width:26% ;
+    opacity:0.7;
+ font-size: 14px;
+ letter-spacing:1px;
+ /* height:75vh; */
+}
+
+.seconddiv-cards main img{
+    box-shadow: -2px -4px 10px 1px rgba(129, 111, 138, 0.5) ;
+    border-radius: 25px;
+    background: linear-gradient(  0deg, #0F081C, rgba(129, 111, 138, 0.1)56%);
+}
+
+.thirddiv-cards{
+    font-family: 'Montserrat';
+    color:#ECECEC ;   
+        /* width: 88%;
+        margin-left: auto;
+        margin-right: auto; */
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   margin-top: 64px;
+   /* background-color:#0B0121 ; */
+    /* background: linear-gradient(  0deg, #0F081C, rgba(230, 185, 5, 0)136%), url('/img/Hero\ Stack\ background\ only.png'); */
+   background: linear-gradient(  0deg, #0B0121, rgba(129, 111, 138, 0.1)56%);
+   border-radius: 25px;
+   padding: 72px;
+   box-shadow: -2px -4px 10px 1px rgba(129, 111, 138, 0.5) ;
+}
+.thirddiv-cards h1{
+    font-size:40px;
+    width: 44%;
+       text-align: center;
+}
+
+.thirddiv-cards p{
+    font-size: 14px;
+    width: 49%;
+    text-align: center;
+}
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */ 
+    grid-template-rows: auto auto;   /* Adjust rows based on content */
+    /* background-color: #0B0121;  */
+    color: #FFFFFF;
+    padding: 30px 180px 0px 180px;
+    gap: 2px; /* Space between grid items */
+    font-family: 'Montserrat', sans-serif;
+
+}
+.contact, .careers, .address, .social {
+    /* grid-column: span 5; Each takes one column */
+  }
+ footer .logo {
+    /* grid-column: 3 / 4; /* Spans the third column */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: ;
+    color: #FFFFFF;
+    /* background-color: #0F081C;  */
+    padding: 0px 140px 0px 140px;
+
+  }
+  footer .logo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  footer .logo div img{
+    height: 24px;
+  }
+  
+
+
+
+
+  
+
+
+
+  
+
+  /* Media Query for Tablets and Mobile Devices */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Show the hamburger icon */
+    }
+
+
+    #navstart {
+      /* flex-direction: column;  */
+      /* padding-right: 20px;  */
+    }
+  
+    .navfirst {
+      margin-left: 20px; /* Reduce  margin for mobile*/
+      font-size: 14px; /* Smaller font size */
+    }
+  
+    .navlinks {
+                display: none;  /*Hide navigation links by default */
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                background-color: rgb(11,1,33);
+                padding: 20px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      /* gap: 15px;  */
+      /* flex-wrap: wrap;  */
+    }
+
+    .navlinks.show {
+        display: flex;   /* Show the links when the menu is toggled */
+    }
+  
+    #bodi main {
+      padding: 100px 20px 50px 20px;
+      text-align: center; 
+    }
+  
+    #bodi main .faded-text {
+      font-size: 40px; 
+      width: 90%; 
+    }
+  
+    #bodi main p {
+      width: 80%; 
+      font-size: 16px; 
+    }
+  
+    #trusted div {
+       gap: 16px;
+    }
+  
+    #features main {
+      padding: 20px; /* Reduce padding */
+    }
+  
+    .first-features {
+      width: 80%; /* Full-width for mobile */
+      font-size: 24px; /* Smaller font size */
+    }
+  
+    .features-para {
+      width: 80%; /* Full-width for mobile */
+      font-size: 16px; /* Smaller font size */
+    }
+
+      
+    #cards {
+      padding: 0px 20px; /* Reduce padding */
+    }
+  
+    .firstdiv-cards {
+      flex-direction: column; /* Stack cards vertically */
+    }
+  
+    .firstdiv-cards .one, .firstdiv-cards .two {
+      width: 100%; /* Full-width cards */
+      margin: 10px 0; /* Adjust margin */
+    }
+  
+    .seconddiv-cards {
+      flex-direction: column; /* Stack cards vertically */
+      margin-top: 20px; /* Adjust top margin */
+    }
+  
+    .seconddiv-cards main h3, .seconddiv-cards main p {
+      width: 100%; /* Full-width for mobile */
+    }
+  
+    .thirddiv-cards {
+      padding: 40px; /* Reduce padding */
+    }
+  
+    .thirddiv-cards h1 {
+      font-size: 28px; /* Smaller font size */
+      width: 90%; /* Full-width for mobile */
+    }
+  
+    .thirddiv-cards p {
+      font-size: 14px; /* Smaller font size */
+      width: 90%; /* Full-width for mobile */
+    }
+  
+    .footer-grid {
+      /* grid-template-columns: 1fr; /* Single column layout */
+      /* padding: 20px;
+      /* display: flex; */
+      /* flex-direction:column;
+      align-items: center; */
+      display: grid;
+      grid-template-columns: 270px 300px ; /* Three columns with fixed widths */
+    }
+      
+    }
+  
+    footer .logo {
+      padding: 0px 20px; /* Reduce padding */
+    }
+  
